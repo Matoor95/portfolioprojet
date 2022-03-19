@@ -1,0 +1,20 @@
+pipeline{
+    agent any
+    stages{
+        stage('Cloning Git'){
+            steps{
+                git 'https://github.com/Matoor95/portfolioprojet'
+            }
+        }
+        
+    
+    stage('build'){
+        steps{
+            script{
+             echo "étape du build"
+        }
+           
+        }
+    }
+    }
+}
