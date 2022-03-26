@@ -1,3 +1,3 @@
 from nginx
 COPY index.html /usr/share/nginx/html
-EXPOSE 81
+EXPOSE 80
